@@ -15,14 +15,14 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" itemscope itemtype="http://schema.org/Organization">
     <div class="container">
       <div class="row align-items-center header__row">
         <div class="col-6 col-sm-4 col-md-3 col-xl-6">
           <div class="row align-items-center">
             <div class="col">
               <a href="index.html" class="logo">
-                <img src="img/logo.svg" alt="">
+                <img src="img/logo.svg" alt="" itemprop="logo">
               </a>
             </div>
 
@@ -48,7 +48,7 @@
         </div>
 
         <div class="col d-none d-sm-flex justify-content-end">
-          <nav class="header-social" itemscope itemtype="http://schema.org/Organization">
+          <nav class="header-social">
             <a href="tel:83457364958" class="header-social__tel" itemprop="telephone">8 (495) 000 00 00</a>
             <nav class="header-social__links">
               <a href="#" target="_blank"><img src="img/inst.svg" alt="Social icon"></a>
@@ -374,6 +374,11 @@
     <section class="catalog">
       <div class="container">
         <div class="row">
+          <div class="col-12">
+            <h2 class="title">
+              Наши услуги
+            </h2>
+          </div>
           <div class="col-12 col-md-6 col-xl-4">
             <a href="#" class="catalog-item">
               <div class="catalog-item__img" style="background-image: url('img/catbg1.jpg')">
@@ -1865,11 +1870,17 @@
               <h2 class="title letter__title">Благодарственные письма</h2>
               <nav class="letter-nav">
                 <a href="#" class="slider__btn letter__prev">
-                  <img src="img/arr.svg" alt="">
+                  <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                  </svg>
+
                 </a>
 
                 <a href="#" class="slider__btn slider__btn-next letter__next">
-                  <img src="img/arr.svg" alt="">
+                  <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                  </svg>
+
                 </a>
               </nav>
             </header>
@@ -2151,7 +2162,7 @@
                   <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
@@ -2181,15 +2192,20 @@
                           adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2201,17 +2217,30 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2223,17 +2252,30 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2245,21 +2287,35 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                   </div>
                 </div>
                 <nav class="article-nav">
                   <a href="#" class="slider__btn article__prev article__prev-1">
-                    <img src="img/arr.svg" alt="">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                    </svg>
+
                   </a>
 
                   <a href="#" class="slider__btn slider__btn-next article__next article__next-1">
-                    <img src="img/arr.svg" alt="">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                    </svg>
+
                   </a>
                 </nav>
               </div>
@@ -2271,7 +2327,7 @@
                   <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
@@ -2301,15 +2357,20 @@
                           adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2321,17 +2382,30 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2343,17 +2417,30 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2365,21 +2452,35 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                   </div>
                 </div>
                 <nav class="article-nav">
                   <a href="#" class="slider__btn article__prev article__prev-2">
-                    <img src="img/arr.svg" alt="">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                    </svg>
+
                   </a>
 
                   <a href="#" class="slider__btn slider__btn-next article__next article__next-2">
-                    <img src="img/arr.svg" alt="">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                    </svg>
+
                   </a>
                 </nav>
               </div>
@@ -2391,7 +2492,7 @@
                   <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
@@ -2421,15 +2522,20 @@
                           adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2441,17 +2547,30 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2463,17 +2582,30 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                     <div class="swiper-slide">
-                      <article class="article-item">
+                      <a href="article.html" class="article-item blog-item">
                         <h3 class="article__title">
                           Turpis nunc eget lorem dolor sed viverra ipsum.
                           Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+                          Turpis nunc eget lorem dolor sed viverra ipsum.
+                          Fermentum leo vel orci porta non.
+
                         </h3>
 
                         <div class="article__img">
@@ -2485,21 +2617,35 @@
                           lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
                           viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
                           adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
+                          Mollis nunc sed id semper risus in hendrerit gravida rutrum. Volutpat
+                          lacus laoreet non curabitur gravida arcu ac. Eget nunc scelerisque
+                          viverra mauris. Interdum posuere lorem ipsum dolor sit amet consectetur
+                          adipiscing elit.
                         </p>
 
-                        <a href="#" class="btn btn-white article__btn">Читать</a>
-                      </article>
+                        <p href="#" class="btn btn-white article__btn">Читать</p>
+                      </a>
                     </div>
 
                   </div>
                 </div>
                 <nav class="article-nav">
                   <a href="#" class="slider__btn article__prev article__prev-3">
-                    <img src="img/arr.svg" alt="">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                    </svg>
+
                   </a>
 
                   <a href="#" class="slider__btn slider__btn-next article__next article__next-3">
-                    <img src="img/arr.svg" alt="">
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.40388 9.00856L18.9998 9.00856C19.552 9.00856 20 8.55707 20 7.99973C20 7.44239 19.5519 6.9909 18.9998 6.9909L3.40388 6.9909L8.60489 1.72218C8.99597 1.32764 8.99597 0.689435 8.60489 0.295899C8.2138 -0.0986324 7.5807 -0.0986324 7.19061 0.295899L0.290323 7.28655C-0.0947769 7.67511 -0.0987676 8.32535 0.290323 8.71382L7.19161 15.7045C7.58269 16.099 8.2158 16.098 8.60588 15.7045C8.99697 15.3109 8.99697 14.6717 8.60588 14.2782L3.40388 9.00856Z" fill="#ADB5BD" />
+                    </svg>
+
                   </a>
                 </nav>
               </div>
@@ -2512,7 +2658,7 @@
 
   </main>
 
-  <footer class="footer">
+  <footer class="footer" itemscope itemtype="http://schema.org/Organization">
     <div class="container">
       <div class="row footer__row align-items-center">
         <div class="col-12 col-sm-6 col-lg-3">
@@ -2522,11 +2668,11 @@
         </div>
 
         <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
-          <a href="tel:88005553535" class="footer__tel">8 (495) 000 00 00</a>
+          <a href="tel:88005553535" class="footer__tel" itemprop="telephone">8 (495) 000 00 00</a>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-3 d-flex justify-content-center">
-          <a href="mailto:asdfasd@gmail.com" class="footer__mail">shop@site.ru</a>
+          <a href="mailto:asdfasd@gmail.com" class="footer__mail" itemprop="email">shop@site.ru</a>
         </div>
 
         <div class="col-12 col-sm-6 col-lg-3">
@@ -2614,7 +2760,7 @@
         </div>
 
         <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
-          <a href="tel:88005553535" class="footer__tel-bold">
+          <a href="tel:88005553535" class="footer__tel-bold" itemprop="telephone">
             8 (495) 000 00 00
           </a>
           <a href="#" class="footer__call js-call">ЗАКАЗАТЬ ЗВОНОК</a>
@@ -2848,7 +2994,7 @@
                 </select>
               </span>
               <span>
-                <label for="your-photo" class="form__upload">Прикрепить файлы</label>
+                <label for="your-select-file" class="form__upload">Прикрепить файлы</label>
                 <input type="file" id="your-select-file" class="form-control d-none">
               </span>
               <span>
@@ -2884,7 +3030,7 @@
                 <input type="tel" class="form-control form__input" placeholder="Email">
               </span>
               <span>
-                <button type="submit" class="btn modal-form__btn">подписаться</button>
+                <button type="submit" class="btn btn-transparent-border btn-transparent-border-black modal-form__btn">подписаться</button>
               </span>
             </div>
             <div class="modal-form__agreement">
@@ -2926,7 +3072,7 @@
               </span>
 
               <span>
-                <button type="submit" class="btn modal-form__btn">ОТПРАВИТЬ РЕЗЮМЕ</button>
+                <button type="submit" class="btn btn-transparent-border btn-transparent-border-black modal-form__btn">ОТПРАВИТЬ РЕЗЮМЕ</button>
               </span>
             </div>
             <div class="modal-form__agreement">
@@ -2971,8 +3117,10 @@
 
 
               <div class="modal-form__btns">
-                <button type="submit" class="btn modal-form__btn">ИЗМЕНИТЬ</button>
-                <button type="reset" class="btn btn-white modal-form__btn modal-personal__exit">Отмена
+                <button type="submit" class="btn btn-transparent-border btn-transparent-border-black modal-form__btn">
+                  ИЗМЕНИТЬ
+                </button>
+                <button type="reset" class="btn btn-transparent-border modal-form__btn modal-personal__exit">Отмена
                 </button>
               </div>
 
@@ -3011,7 +3159,7 @@
                 <textarea name="your-reviews-2" cols="30" rows="10" class="form-control form__input form__textarea-long" placeholder="Отзыв"></textarea>
               </span>
               <span>
-                <button type="submit" class="btn modal-form__btn">ОТПРАВИТЬ</button>
+                <button type="submit" class="btn btn-transparent-border btn-transparent-border-black modal-form__btn">ОТПРАВИТЬ</button>
               </span>
             </div>
             <div class="modal-form__agreement">
@@ -3064,7 +3212,7 @@
               </span>
 
               <span>
-                <button type="submit" class="btn modal-form__btn">ОТПРАВИТЬ</button>
+                <button type="submit" class="btn btn-transparent-border btn-transparent-border-black modal-form__btn">ОТПРАВИТЬ</button>
               </span>
             </div>
             <div class="modal-form__agreement">
