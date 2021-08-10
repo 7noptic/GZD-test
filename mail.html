@@ -315,8 +315,11 @@
             </div>
           </div>
           <div class="col-12 col-lg-6">
-            <div class="mail-link"><a href="#" class="btn btn-white mail-link__btn js-mail-link">Сообщить о проблеме</a> <a href="#" class="btn btn-white mail-link__btn js-mail-link">Оставить отзыв</a> <a href="#" class="btn btn-white mail-link__btn js-mail-link">Отправить предложение</a></div>
+            <div class="mail-link"><a href="#" class="js-mail-link" style="display:none;"></a> <a href="#" class="btn btn-white mail-link__btn js-mail-link">Сообщить о проблеме</a> <a href="#" class="btn btn-white mail-link__btn js-mail-link">Оставить отзыв</a> <a href="#" class="btn btn-white mail-link__btn js-mail-link">Отправить предложение</a></div>
             <div class="mail-form">
+              <div class="tab mail-form__wrapper js-mail-tab">
+                <p class="mail-form__text">Для отправки сообщения выберите тему</p>
+              </div>
               <div class="tab mail-form__wrapper js-mail-tab">
                 <form action="post"><input type="text" placeholder="Фамилия Имя Отчество * " class="form-control form__input" required> <input type="text" placeholder="Название компании *" class="form-control form__input" required> <input type="tel" placeholder="Ваш телефон *" class="form-control form__input" required> <input type="email" placeholder="Ваш email" class="form-control form__input"> <label for="your-select-file-banner" class="form__upload">Прикрепить файлы</label> <input type="file" id="your-select-file-banner" class="form-control d-none"> <button type="submit" class="btn btn-transparent-border btn-transparent-border-black mail-form__btn">ОТПРАВИТЬ</button></form>
                 <p class="mail-form__agreement">Нажимая на кнопку «Отправить» Вы даете согласие на обработку своих персональных данных в соответствии со статьей 9 Федерального закона от 27 июля 2006 г. NО 152-ФЗ «О персональных данных»<br>* ОБЯЗАТЕЛЬНОЕ ПОЛЕ ДЛЯ ЗАПОЛНЕНИЯ</p>
